@@ -1,5 +1,4 @@
 # M5Stack_MultiApp_Firmware
-# M5Stack ESP32 Oscilloscope
 
 ![image](20180407_191741.jpg)
 
