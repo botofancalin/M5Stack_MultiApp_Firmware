@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Tools">
+      <UniqueIdentifier>{d61ed6f4-4814-4bb0-9c13-e3d4c8e6266b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Games">
+      <UniqueIdentifier>{f49c5cba-a8ad-45d1-b2ff-f8b629ed930c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lib">
+      <UniqueIdentifier>{4d168daf-0c2b-471e-b22a-8a291eacb9a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lib">
+      <UniqueIdentifier>{e7f76310-924d-479b-9cbd-71a2776a7e45}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="M5Stack_MultiApp_Firmware.ino" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="__vm\.M5Stack_MultiApp_Firmware.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="apps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5StackSAM\M5StackSAM.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\utility\Display.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\Font72rle.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\Font64rle.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\Font32rle.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\Font7srle.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\Font16.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\M5Stack.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\utility\aREST.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\ASC16.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\utility\Button.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\utility\Config.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeMono9pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeMono12pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeMono18pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeMono24pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeMonoBold9pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeMonoBold12pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeMonoBold18pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeMonoBold24pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeMonoBoldOblique9pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeMonoBoldOblique12pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeMonoBoldOblique18pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeMonoBoldOblique24pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeMonoOblique9pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeMonoOblique12pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeMonoOblique18pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeMonoOblique24pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeSans9pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeSans12pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeSans18pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeSans24pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeSansBold9pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeSansBold12pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeSansBold18pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeSansBold24pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeSansBoldOblique9pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeSansBoldOblique12pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeSansBoldOblique18pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeSansBoldOblique24pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeSansOblique9pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeSansOblique12pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeSansOblique18pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeSansOblique24pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeSerif9pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeSerif12pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeSerif18pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeSerif24pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeSerifBold9pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeSerifBold12pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeSerifBold18pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeSerifBold24pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeSerifBoldItalic9pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeSerifBoldItalic12pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeSerifBoldItalic18pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeSerifBoldItalic24pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeSerifItalic9pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeSerifItalic12pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeSerifItalic18pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\FreeSerifItalic24pt7b.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\gfxfont.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\HZK16.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\utility\Kalman.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\M5LoRa.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\utility\M5Timer.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\utility\MPU9250.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\Custom\Orbitron_Light_24.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\Custom\Orbitron_Light_32.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\utility\quaternionFilters.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\Custom\Roboto_Thin_24.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\Custom\Satisfy_24.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\utility\Speaker.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\GFXFF\TomThumb.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\Fonts\Custom\Yellowtail_32.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\M5Stack\utility\DHTesp.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Apps\appAbout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Apps\appCfgBrightness.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Apps\appGamesList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Apps\appOsciloscope.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Apps\appReturn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Apps\appSleep.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Apps\appStopWatch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Apps\appSysinfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Apps\appToolsList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Apps\Tools\appOta.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Apps\Tools\Clock.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Apps\Tools\DhtReader.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Apps\Tools\I2CScanner.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Apps\Tools\Meters.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Apps\Tools\WifiPacketMonitor.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Apps\Tools\WifiScanner.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Apps\Games\FlappyBird.cpp">
+      <Filter>Source Files\Games</Filter>
+    </ClCompile>
+    <ClCompile Include="Apps\Games\SpaceShooter.cpp">
+      <Filter>Source Files\Games</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\M5StackSAM\M5StackSAM.cpp">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\M5Stack\M5Stack.cpp">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\M5Stack\utility\Display.cpp">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\M5Stack\utility\DHTesp.cpp">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\M5Stack\M5LoRa.cpp">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\M5Stack\utility\Speaker.cpp">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\M5Stack\utility\Button.cpp">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\M5Stack\utility\M5Timer.cpp">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\M5Stack\utility\MPU9250.cpp">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\M5Stack\utility\quaternionFilters.cpp">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Data\About.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\Apps.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\Backlight.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\Games.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\Oscilloscope.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\Return.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\Sleep.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\Stopwatch.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\SysInfo.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\System.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\tools.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
